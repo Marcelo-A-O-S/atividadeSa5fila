@@ -1,0 +1,82 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+   background-color: rgba(163, 209, 235, 1);
+   height: 100vh;
+   width: 100vh;
+}
+main .terreno
+{
+    display: flex;
+    
+    height: 442px;
+    width: 100vw;
+    background-color: rgba(156, 198, 89, 0.56);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+}
+main{
+    height: 442px;
+    width: 100vh;
+    padding-top: 147px;
+}
+.clientes
+{
+    display: flex;
+    flex-direction: row;
+    
+    height: 221px;
+}
+.tipo1
+{
+    width: 148px;
+    height: 212px;
+    background: url(Assets/img/cliente3\ 1.svg);
+    mix-blend-mode: darken;
+}
+.tipo2
+{
+    width: 154.44px;
+    height: 212px;
+    background: url(Assets/img/cliente2\ 1.svg);
+    mix-blend-mode: darken;
+}
+.tipo3
+{
+    width: 159.24px;
+    height: 212px;
+    background: url(Assets/img/cliente\ 1.svg);
+    mix-blend-mode: darken;
+}
+.cobrador
+{
+    width: 145px;
+    height: 215px;
+    background: url(Assets/img/cobrador.svg);
+    mix-blend-mode: darken;
+}
+.MenuAction
+{
+    padding-top: 55px;
+    display: flex;
+    width: 100vh;
+    height: 108px;
+    gap: 66px;
+}
+header{
+    display: flex;
+    width: 100vw;
+    justify-content: center
+}
+.btn
+{
+    width: 258px;
+    height: 108px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
