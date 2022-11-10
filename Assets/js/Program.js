@@ -31,7 +31,7 @@ function RetirarDaFila(){
 }
 function enfileirar(clientes)
 { 
-    var teste = clientes
+    
     var fila = ''
     var indice = quantidade - 1
 
